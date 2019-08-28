@@ -19,6 +19,7 @@ export class HomeService {
       this.http.get('https://angular-html-jc.firebaseio.com/atoms.json')
       .subscribe((resp: Home[]) => {
         this.homes = resp;
+        console.log(this.homes);
         resolve();
       });
 
