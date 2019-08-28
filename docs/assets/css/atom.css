@@ -1,0 +1,163 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+    position: relative;
+  
+  
+  }
+  .header_app{
+    width: 100%;
+    height: 20%;
+    position: relative;
+  
+  }
+  
+  h1{
+    text-align: center;
+    display: block;
+  }
+  
+  .container{
+    width: 100%;
+    height: 845px;
+  
+    position: relative;
+  
+  }
+  .container_iframe{
+    width: 100%;
+      height: 900px;
+  }
+  
+  .card{
+    width: 49%;
+    height: 49%;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .card2{
+    background: white;
+    height: 95%;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: #ADB5C8;
+    box-shadow: 0px 0px 5px rgba(60, 64, 67, 0.42);
+    position: relative;
+  }
+  
+  .ifra::after{
+    content: '';
+  width: 100%;
+  height: 11%;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  }
+  .card2:hover{
+     border-color: #6ADFD9;
+      box-shadow: 0px 0px 15px rgba(60, 64, 67, 0.42);
+  }
+  .primero .segundo .tercero .cuarto{
+    position: relative;
+  }
+  .enlace{
+    text-decoration: none;
+  background: transparent;
+  font-weight: bolder;
+  color: black;
+  padding: 10px;
+  width: 96%;
+  
+  height: 90%;
+  display: block;
+  top: 0px;
+  z-index: 999;
+  position: absolute;
+  
+  }
+  .titulo{
+  
+    top: 9px;
+    left: 27px;
+    font-weight: bold;
+  }
+  
+  .ifra{
+      position: absolute;
+        top: 10%;
+        left: 4%;
+        z-index: 2;
+        width: 90%;
+        height: 86%;
+        overflow: hidden;
+  
+  }
+  
+  .ifra iframe{
+    width: 100%;
+        height: 100%;
+    z-index: 1;
+  }
+  
+  .iframe_det{
+    width: 100%;
+  height: 100%;
+  }
+  
+  .home{
+    width: 42px;
+  position: absolute;
+  height: 42px;
+  top: 0px;
+  opacity: 0;
+  left: 0px;
+  }
+  
+  
+  
+  
+  .tooltip {
+    position: absolute;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    left: 43px;
+    top: 5px;
+    cursor: pointer;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: -37%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  transparent transparent #555 transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
